@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_14;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_14;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;CS0649;IDE0051</NoWarn>
@@ -88,21 +88,41 @@
     <Compile Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperStateMachine.cs" />
     <Compile Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\DebugDraw.cs" />
     <Compile Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Math3d.cs" />
+    <Compile Include="Assets\Asset Packs\Low Poly Bird Parrot\Character\Player.cs" />
+    <Compile Include="Assets\Asset Packs\Low Poly Bird Parrot\Character\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Asset Packs\LowPolyWaterv2\Demos\Scripts\DemoFreeFlyCamera.cs" />
+    <Compile Include="Assets\Asset Packs\LowPolyWaterv2\Scripts\LowPolyWaterScript.cs" />
+    <Compile Include="Assets\Asset Packs\LowPolyWaterv2\Scripts\src\LPWDepthEffect.cs" />
+    <Compile Include="Assets\Asset Packs\LowPolyWaterv2\Scripts\src\LPWDisplace.cs" />
+    <Compile Include="Assets\Asset Packs\LowPolyWaterv2\Scripts\src\LPWHiddenProps.cs" />
+    <Compile Include="Assets\Asset Packs\LowPolyWaterv2\Scripts\src\LPWNoise.cs" />
+    <Compile Include="Assets\Asset Packs\LowPolyWaterv2\Scripts\src\LPWNormalSolver.cs" />
+    <Compile Include="Assets\Asset Packs\LowPolyWaterv2\Scripts\src\LPWReflection.cs" />
+    <Compile Include="Assets\Asset Packs\LowPolyWaterv2\Scripts\src\LPWWaterChunk.cs" />
+    <Compile Include="Assets\Scripts\Cinematics\Cinematic_Trigger.cs" />
+    <Compile Include="Assets\Scripts\Cinematics\Cinematics_Remove_Control.cs" />
     <Compile Include="Assets\Scripts\Combat\Combat_Target.cs" />
     <Compile Include="Assets\Scripts\Combat\Fighter.cs" />
-    <Compile Include="Assets\Scripts\Combat\Health.cs" />
+    <Compile Include="Assets\Scripts\Control\AI_Controler.cs" />
+    <Compile Include="Assets\Scripts\Control\Patrol_Path.cs" />
     <Compile Include="Assets\Scripts\Control\Player_Controler.cs" />
     <Compile Include="Assets\Scripts\Core\Action_Schedular.cs" />
     <Compile Include="Assets\Scripts\Core\Follow_Camera.cs" />
+    <Compile Include="Assets\Scripts\Core\Health.cs" />
     <Compile Include="Assets\Scripts\Core\IAction.cs" />
+    <Compile Include="Assets\Scripts\Core\Persistent_Object_Spawner.cs" />
     <Compile Include="Assets\Scripts\Movement\Mover.cs" />
+    <Compile Include="Assets\Scripts\Scene Management\Fader.cs" />
+    <Compile Include="Assets\Scripts\Scene Management\Portal.cs" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LPWStandard.cginc" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SunShaftsComposite.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LPWNoise.cginc" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
     <None Include="Assets\Asset Packs\Animations\README - Usage Rights for these assets 1.txt" />
@@ -117,19 +137,25 @@
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\FisheyeShader.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LPWLighting.cginc" />
     <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LPWRipples.cginc" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LPWRenderDepth.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SSAOShader.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LPWLite.cginc" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\CreaseApply.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LPWReflection.cginc" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\GlobalFog.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LPWShoreBlend.cginc" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
@@ -145,22 +171,29 @@
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SepiaToneEffect.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\TwirlEffect.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LowPolyWaterLite.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\NoiseAndGrain.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\VignettingShader.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\Tonemapper.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LowPolyWaterAdvanced.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LPWCompatibility.cginc" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Asset Packs\LowPolyWaterv2\Shaders\LPWWaves.cginc" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SimpleClear.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
     <None Include="Assets\Asset Packs\Animations\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/brucepouncey/Desktop/GameDev/Unity/RPG/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/brucepouncey/Desktop/GameDev/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -169,6 +202,15 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/brucepouncey/Desktop/GameDev/Unity/RPG/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>/Users/brucepouncey/Desktop/GameDev/Unity/RPG/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>/Users/brucepouncey/Desktop/GameDev/Unity/RPG/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/brucepouncey/Desktop/GameDev/Unity/RPG/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/brucepouncey/Desktop/GameDev/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>

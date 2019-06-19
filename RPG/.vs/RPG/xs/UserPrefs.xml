@@ -1,21 +1,18 @@
 ﻿<Properties StartupConfiguration="{0BE8E511-D506-A1D0-E67D-923A5ED26D39}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Combat/Health.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scene Management/Fader.cs">
     <Files>
-      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="30" Column="31" />
-      <File FileName="Assets/Scripts/Core/Action_Schedular.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Core/Follow_Camera.cs" Line="18" Column="1" />
-      <File FileName="Assets/Scripts/Core/IAction.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Combat/Combat_Target.cs" Line="9" Column="1" />
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="47" Column="14" />
-      <File FileName="Assets/Scripts/Combat/Health.cs" Line="22" Column="32" />
-      <File FileName="Assets/Scripts/Control/Player_Controler.cs" Line="15" Column="48" />
+      <File FileName="Assets/Scripts/Scene Management/Fader.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/Scene Management/Portal.cs" Line="26" Column="1" />
+      <File FileName="Assets/Scripts/Core/Persistent_Object_Spawner.cs" Line="29" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="48e6b515-edd5-4d04-958a-ea5ca479e71a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f0e23c2b-813a-4019-8dee-85c469c69807" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/brucepouncey/Desktop/GameDev/Unity/RPG/Assets/Scripts/Core/Persistent_Object_Spawner.cs" relfile="Assets/Scripts/Core/Persistent_Object_Spawner.cs" line="14" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

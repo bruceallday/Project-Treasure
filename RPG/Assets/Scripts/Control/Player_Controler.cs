@@ -4,13 +4,22 @@ using RPG.Movement;
 using UnityEngine;
 
 using RPG.Combat;
+using RPG.Core;
 
 namespace RPG.Control
 {
     public class Player_Controler : MonoBehaviour
     {
+        Health health;
+
+        private void Start()
+        {
+            health = GetComponent<Health>();
+        }
+
         private void Update()
         {
+            if (health.IsDead()) { return; }
             if (InteractWithCombat()) return;
             if (InteractWithMovement()) return;
         }
@@ -20,12 +29,17 @@ namespace RPG.Control
             RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
             foreach (RaycastHit hit in hits)
             {
-               Combat_Target target = hit.transform.GetComponent<Combat_Target>();
-                if (target == null) continue;
+                Combat_Target target = hit.transform.GetComponent<Combat_Target>();
+                if (target == null) { continue; }
 
-                if (Input.GetMouseButtonDown(0))
+                if (!GetComponent<Fighter>().CanAttack(target.gameObject))
                 {
-                    GetComponent<Fighter>().Attack(target);
+                    continue;
+                }
+
+                if (Input.GetMouseButton(0))
+                {
+                    GetComponent<Fighter>().Attack(target.gameObject);
                 }
                 return true;
             }
@@ -41,7 +55,7 @@ namespace RPG.Control
             {
                 if (Input.GetMouseButton(0))
                 {
-                    GetComponent<Mover>().StartMoveAction(hit.point);
+                    GetComponent<Mover>().StartMoveAction(hit.point, 1f);
                 }
                 return true;
             }
